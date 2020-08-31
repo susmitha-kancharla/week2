@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(211, 210, 210);
+}
+h1 {
+    margin: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+p {
+    position: relative;
+    clear: right;
+    text-align: justify;
+}
+
+div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.box1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: pink;
+}
+.box2 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(197, 56, 56);
+}
+.box3 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(199, 199, 3); 
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+@media (min-width: 992px){
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px){
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
